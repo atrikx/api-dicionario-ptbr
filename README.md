@@ -3,12 +3,13 @@
 
 Nunca foi tão fácil utilizar uma API! 
 Uma solução simples para consumir os dados feito para você!!
+API conta com milhões de palavras diretamente do banco de dados do Dicio: https://www.dicio.com.br/
 
 Atualmente está em Desenvolvimento!
 
 ### Documentação: 📁📋
 ´´´
-LINK: https://api-dicionario-ptbr.herokuapp.com/docs
+https://api-dicionario-ptbr.herokuapp.com/docs
 ´´´
 
 
