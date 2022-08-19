@@ -15,5 +15,15 @@ https://api-dicionario-ptbr.herokuapp.com/docs
 
 ### Exemplo de uso:
 
-https://api-dicionario-ptbr.herokuapp.com/palavra
+#### Nesse exemplo eu escolhi a palavra "Cadeira" 
+
+
+https://api-dicionario-ptbr.herokuapp.com/cadeira
+
+
+
+resultado sinônimos:
+
+["acostamento","assento","encosto","poltrona","disciplina","cátedra"]
+
 
