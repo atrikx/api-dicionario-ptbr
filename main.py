@@ -1,5 +1,5 @@
 from classes import API
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI(
     title="API Dicionário - Português Brasil",
@@ -14,6 +14,9 @@ Created by https://github.com/atrikx/
 """
 
 
-@app.get("/{palavra}")
+@app.get("/{palavra}", tags=["Sinônimos"])
 async def sinonimos(palavra: str):
-    return await API().sinonimos(palavra)
+    sinonimos = await API().sinonimos(palavra)
+    if not sinonimos:
+        raise HTTPException(status_code=400, detail="Palavra inválida")
+    return sinonimos
