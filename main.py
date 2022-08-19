@@ -1,18 +1,19 @@
-import requests
-from bs4 import BeautifulSoup
+from classes import API
 from fastapi import FastAPI
 
+app = FastAPI(
+    title="API Dicionário - Português Brasil",
+    swagger_ui_parameters={"defaultModelsExpandDepth": -1})
 
-app = FastAPI()
+"""
+# ================================= #
+
+Created by https://github.com/atrikx/
+
+# ================================= #
+"""
 
 
 @app.get("/{palavra}")
 async def sinonimos(palavra: str):
-    url = f"https://www.dicio.com.br/{palavra}/"
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'html.parser')
-    sinonimos = soup.find(class_='adicional sinonimos')
-    resultado = []
-    for tag in sinonimos.find_all('a'):
-        resultado.append(tag.text.strip())
-    return resultado
+    return await API().sinonimos(palavra)
