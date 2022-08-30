@@ -1,4 +1,5 @@
-# API do Dicionário em Português - Brasil 📚🔎
+
+# Public API do Dicionário em Português - Brasil 📚🔎
 
 
 Nunca foi tão fácil utilizar uma API! 
