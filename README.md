@@ -9,7 +9,7 @@
 </p>
 
 <br><br><br>
-<h1>🔎 API do Dicionário em Português - Brasil 📚 </h1> <br>
+<h1>🔎 API Pública Dicionário em Português - Brasil 📚 </h1> <br>
 
 Nunca foi tão fácil utilizar uma API!<br>
 Uma solução simples para consumir os dados feito para você que é Desenvolvedor, iniciante ou profissional!!<br>
