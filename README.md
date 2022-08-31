@@ -25,15 +25,13 @@ Atualmente está em Desenvolvimento!
 
 ### Exemplo de uso: 📋
 
-#### Nesse exemplo eu escolhi a palavra "Cadeira" 
+#### Vamos testar a palavra "Cadeira" 
 
+<a href="https://api-dicionario-ptbr.herokuapp.com/cadeira" target="_blank">api-dicionario-ptbr.com/cadeira</a>
+<br><br>
 
-https://api-dicionario-ptbr.herokuapp.com/cadeira
+**resultado sinônimos**:
 
-
-
-resultado sinônimos:
-
-["acostamento","assento","encosto","poltrona","disciplina","cátedra"]
+{"sinonimos":["acostamento","assento","encosto","poltrona","disciplina","cátedra"]}
 
 
