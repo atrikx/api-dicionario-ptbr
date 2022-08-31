@@ -5,7 +5,7 @@
 <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank" title="Beautiful Soup"> <img src="https://miro.medium.com/max/1045/1*jN3vLj7R8m9BEpOJuMJT-w.png" align="center" height="15%" width="20%"><a/>
 </div>
 <p align="center">
-    <em>Public Open Source API</em>
+    <em>Open Source - Public API</em>
 </p>
 
 <br><br><br>
